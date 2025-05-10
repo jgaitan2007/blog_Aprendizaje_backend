@@ -18,6 +18,12 @@ const PublicSchema = new Schema({
         type: Date,
         default: Date.now,
     },
+    comments: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: "Coment",
+        }
+    ],
     status: {
         type: Boolean,
         default: true,
