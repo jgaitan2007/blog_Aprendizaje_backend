@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "18ce5e66-a492-49a0-9ebf-883709c96a37",
+		"name": "Blog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37636976"
+	},
+	"item": [
+		{
+			"name": "comentarios",
+			"item": [
+				{
+					"name": "ListarComentarios",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/BlogDeAprendizaje/v1/Comentarios/ListarComentarios",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"BlogDeAprendizaje",
+								"v1",
+								"Comentarios",
+								"ListarComentarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CrearComentario",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"publication\": \"681eb4d644a256d51c63b137\",\r\n  \"author\": \"Ejemplo 6\",\r\n  \"description\": \"Comentario\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/BlogDeAprendizaje/v1/Comentarios/CrearComentario",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"BlogDeAprendizaje",
+								"v1",
+								"Comentarios",
+								"CrearComentario"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "publicaciones",
+			"item": [
+				{
+					"name": "CrearPublicacion",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"course\": \"Matematicas\",\r\n  \"title\": \"Ejemplo 3\",\r\n  \"description\": \"Descripcion\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/BlogDeAprendizaje/v1/Publicaciones/CrearPublicacion",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"BlogDeAprendizaje",
+								"v1",
+								"Publicaciones",
+								"CrearPublicacion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarPublicaciones",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/BlogDeAprendizaje/v1/Publicaciones/ListarPublicaciones",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"BlogDeAprendizaje",
+								"v1",
+								"Publicaciones",
+								"ListarPublicaciones"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

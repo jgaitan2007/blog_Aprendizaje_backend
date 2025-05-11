@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "682129bc34b3d31a6ffd5ad9"
+  },
+  "course": "Matematicas",
+  "title": "Ejemplo 3",
+  "description": "Descripcion",
+  "comments": [
+    {
+      "$oid": "68212a1d34b3d31a6ffd5ae0"
+    }
+  ],
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T22:50:36.579Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T22:50:36.585Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T22:52:13.564Z"
+  }
+}]

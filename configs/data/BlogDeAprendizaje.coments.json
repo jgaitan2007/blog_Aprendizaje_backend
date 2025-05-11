@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "68212a1d34b3d31a6ffd5ae0"
+  },
+  "publication": {
+    "$oid": "682129bc34b3d31a6ffd5ad9"
+  },
+  "author": "Ejemplo 6",
+  "description": "Comentario",
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T22:52:13.560Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T22:52:13.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T22:52:13.560Z"
+  }
+}]
