@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "6820365d2bd831c12a8a601c"
+  },
+  "course": "Taller III",
+  "title": "Inicio de clases",
+  "description": "10 De enero inicio del curso de taller",
+  "comments": [
+    {
+      "$oid": "682036c430dc9dc21a538bc3"
+    }
+  ],
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T05:32:13.202Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T05:32:13.212Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T05:33:56.580Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6820368c30dc9dc21a538bbf"
+  },
+  "course": "Tecnologia",
+  "title": "Parcial 1",
+  "description": "Dia viernes parcial de Tecnologia semana del 1 al 3",
+  "comments": [
+    {
+      "$oid": "682036dd30dc9dc21a538bc7"
+    }
+  ],
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T05:33:00.524Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T05:33:00.532Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T05:34:21.494Z"
+  }
+}]
